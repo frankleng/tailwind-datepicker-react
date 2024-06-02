@@ -1,6 +1,6 @@
 {
-	"name": "tailwind-datepicker-react",
-	"version": "1.4.3",
+	"name": "react-tailwindcss-datepicker",
+	"version": "1.0.0",
 	"description": "A tailwindcss/flowbite datepicker component built as a react component with types",
 	"main": "dist/index.js",
 	"types": "types/index.d.ts",
@@ -18,7 +18,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/OMikkel/tailwind-datepicker-react.git"
+		"url": "git+https://github.com/frankleng/tailwind-datepicker-react.git"
 	},
 	"keywords": [
 		"tailwind",
