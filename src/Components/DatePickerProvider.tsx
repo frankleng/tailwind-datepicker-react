@@ -15,7 +15,7 @@ interface IDatePickerContext {
 	setShowSelectedDate: Dispatch<SetStateAction<boolean>>
 	selectedMonth: number
 	selectedYear: number
-	onClear: () => void
+	onClear?: () => void
 	getFormattedDate: (date: Date | number, formatOptions?: Intl.DateTimeFormatOptions | null | undefined) => string
 }
 
@@ -41,7 +41,7 @@ interface IDatePickerProviderProps {
 	children: ReactElement
 	options?: IOptions
 	onChange?: (date: Date) => void
-	onClear: () => void
+	onClear?: () => void
 	show: boolean
 	setShow: (show: boolean) => void
 	selectedDateState?: [Date, (date: Date) => void]

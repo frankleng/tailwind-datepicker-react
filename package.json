@@ -1,5 +1,5 @@
 {
-	"name": "react-tailwindcss-datepicker",
+	"name": "@frankleng/react-tailwindcss-datepicker",
 	"version": "1.0.0",
 	"description": "A tailwindcss/flowbite datepicker component built as a react component with types",
 	"main": "dist/index.js",
