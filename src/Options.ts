@@ -13,8 +13,8 @@ interface ITheme {
 }
 
 interface IIcons {
-	prev: () => ReactElement | JSX.Element
-	next: () => ReactElement | JSX.Element
+	prev: () => ReactElement
+	next: () => ReactElement
 }
 
 export interface IOptions {
